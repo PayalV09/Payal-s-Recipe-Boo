@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payal's Recipe Book 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Payal's Recipe Book 2024</h1>
+        </header>
+
+        <!-- Submission Section -->
+        <section id="submission-section">
+            <h2>Submit Your Recipe</h2>
+            <!-- Recipe Submission Form -->
+            <form id="recipe-form" enctype="multipart/form-data">
+                <div class="form-group">
+                    <input type="text" id="recipe-title" placeholder="Recipe Title" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="recipe-ingredients" placeholder="Ingredients" required></textarea>
+                </div>
+                <div class="form-group">
+                    <textarea id="recipe-instructions" placeholder="Instructions" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="file" id="recipe-image" accept="image/*" required>
+                </div>
+                <button type="submit">Add Recipe</button>
+            </form>
+        </section>
+
+        <!-- Recipes Section -->
+        <section id="recipes-section">
+            <h2>Featured Indian Recipes</h2>
+            <!-- Recipes List -->
+            <ul id="recipes-list">
+                <li>
+                    <img src="images/biryani.jpg" alt="Biryani">
+                    <h3>Biryani (Hyderabadi)</h3>
+                    <p><strong>Ingredients:</strong> Basmati Rice, Chicken, Spices, Saffron</p>
+                    <p class="instructions"><strong>Instructions:</strong> Marinate chicken, layer with partially cooked rice, and cook on low heat until done.</p>
+                </li>
+                <li>
+                    <img src="images/pavbhaji.jpg" alt="Pav Bhaji">
+                    <h3>Pav Bhaji (Maharashtrian)</h3>
+                    <p><strong>Ingredients:</strong> Mixed Vegetables, Butter, Pav Buns, Spices</p>
+                    <p class="instructions"><strong>Instructions:</strong> Boil and mash mixed vegetables, add spices, serve with buttered pav buns.</p>
+                </li>
+                <li>
+                    <img src="images/dosa.jpg" alt="Dosa">
+                    <h3>Dosa (South Indian)</h3>
+                    <p><strong>Ingredients:</strong> Rice, Urad Dal, Fermented Batter</p>
+                    <p class="instructions"><strong>Instructions:</strong> Heat a skillet, pour batter, and cook until crispy on both sides.</p>
+                </li>
+                <li>
+                    <img src="images/butterchicken.jpg" alt="Butter Chicken">
+                    <h3>Butter Chicken (North Indian)</h3>
+                    <p><strong>Ingredients:</strong> Chicken, Butter, Cream, Tomato Sauce</p>
+                    <p class="instructions"><strong>Instructions:</strong> Cook marinated chicken in creamy tomato sauce until tender.</p>
+                </li>
+                <li>
+                    <img src="images/naan.jpg" alt="Naan">
+                    <h3>Naan (Indian Flatbread)</h3>
+                    <p><strong>Ingredients:</strong> Flour, Yeast, Yogurt, Butter</p>
+                    <p class="instructions"><strong>Instructions:</strong> Prepare dough, allow it to rise, roll out, and cook on a tandoor or skillet.</p>
+                </li>
+                <li>
+                    <img src="images/samosa.jpg" alt="Samosa">
+                    <h3>Samosa (Indian Snack)</h3>
+                    <p><strong>Ingredients:</strong> Flour, Potatoes, Peas, Spices</p>
+                    <p class="instructions"><strong>Instructions:</strong> Prepare a dough, stuff with spiced potatoes and peas, then fry until crispy.</p>
+                </li>
+                <li>
+                    <img src="images/modak.jpg" alt="Modak">
+                    <h3>Modak (Indian Dessert)</h3>
+                    <p><strong>Ingredients:</strong> Rice Flour, Jaggery, Coconut, Cardamom</p>
+                    <p class="instructions"><strong>Instructions:</strong> Prepare dough with rice flour, stuff with jaggery and coconut mixture, and steam until cooked.</p>
+                </li>
+                <li>
+                <img src="images/jalebi.jpg" alt="Jalebi">
+                <h3>Jalebi (Indian Dessert)</h3>
+                <p><strong>Ingredients:</strong> Flour, Sugar Syrup, Yogurt</p>
+                <p class="instructions"><strong>Instructions:</strong> Prepare a fermented batter, fry it in oil, and soak in sugar syrup.</p>
+            </li>
+
+            </ul>
+        </section>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
